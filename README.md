@@ -25,8 +25,8 @@ Test: Pictures are resized to 32x32, then they are normalized locally. Single im
 | my implementation[[2]][Paper2] | 28    | 10 |     21.7       |      soon          |
 
 * depth=28, k=10
-<img src="https://github.com/nutszebra/sha_resnet/blob/master/loss2.jpg" alt="loss" title="loss">
-<img src="https://github.com/nutszebra/sha_resnet/blob/master/accuracy2.jpg" alt="total accuracy" title="total accuracy">
+<img src="https://github.com/nutszebra/sha_resnet/blob/master/loss.jpg" alt="loss" title="loss">
+<img src="https://github.com/nutszebra/sha_resnet/blob/master/accuracy.jpg" alt="total accuracy" title="total accuracy">
 
 # References
 Wide Residual Networks [[1]][Paper]  
