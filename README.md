@@ -18,13 +18,13 @@ All hyperparameters and network architecture are the same as in [[1]][Paper] exc
 Train: Pictures are randomly resized in the range of [32, 36], then 32x32 patches are extracted randomly and are normalized locally. Horizontal flipping is applied with 0.5 probability.  
 Test: Pictures are resized to 32x32, then they are normalized locally. Single image test is used to calculate total accuracy.  
 
-# Cifar10 result
+# Cifar10 result  
 | network                        | depth | k  | parameters (M) | total accuracy (%) |
 |:-------------------------------|-------|----|----------------|-------------------:|
 | WRN [[1]][Paper]               | 28    | 10 |     36.2       |      96.0          |
 | my implementation[[2]][Paper2] | 28    | 10 |     21.7       |      soon          |
 
-* depth=28, k=10
+
 <img src="https://github.com/nutszebra/sha_resnet/blob/master/loss.jpg" alt="loss" title="loss">
 <img src="https://github.com/nutszebra/sha_resnet/blob/master/accuracy.jpg" alt="total accuracy" title="total accuracy">
 
