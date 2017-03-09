@@ -22,7 +22,7 @@ Test: Pictures are resized to 32x32, then they are normalized locally. Single im
 | network                        | depth | k  | parameters (M) | total accuracy (%) |
 |:-------------------------------|-------|----|----------------|-------------------:|
 | WRN [[1]][Paper]               | 28    | 10 |     36.2       |      96.0          |
-| my implementation[[2]][Paper2] | 28    | 10 |     21.7       |      soon          |
+| my implementation[[2]][Paper2] | 28    | 10 |     21.7       |      95.97         |
 
 
 <img src="https://github.com/nutszebra/sha_resnet/blob/master/loss.jpg" alt="loss" title="loss">
